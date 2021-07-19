@@ -103,8 +103,6 @@ body{
 
 .f-contents2{
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .f-contents2-item img{
@@ -352,12 +350,13 @@ textarea{
     }
 
     .contents3 img{
-        width: 100%;
-    }
-
-    .contents3 img{
         float: left;
         width: 80%;
+    }
+
+    .f-company-profile{
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .text-box .f-text-box-item{
