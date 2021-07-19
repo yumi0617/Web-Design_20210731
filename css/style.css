@@ -288,14 +288,8 @@ textarea{
 
     }
 
-    .f-container{
-        display: flex;
-        justify-content: space-around;
-    }
-
     .f-container .f-container-item01 img{
         width: 90px;
-        text-align: center;
         padding: 0;
     }
 
@@ -322,7 +316,7 @@ textarea{
         padding: 3px;
     }
 
-    .f-contents1-item ing{
+    .f-contents1-item img{
         width: 100%;
     }
 
@@ -330,10 +324,6 @@ textarea{
         display: flex;
         flex-wrap:wrap;
         text-align: center;
-    }
-
-    .f-contents2{
-        display: flex;
     }
 
     .f-contents2-item img{
@@ -362,26 +352,12 @@ textarea{
     }
 
     .contents3 img{
-        width: 90%;
-    }
-
-    .f-company-profile iframe{
-        width: 40%;
-        text-align: center;
+        width: 100%;
     }
 
     .contents3 img{
         float: left;
         width: 80%;
-    }
-
-    .contents-title{
-        clear: left;
-    }
-
-    .f-company-profile{
-        display: flex;
-        flex-direction: column-reverse;
     }
 
     .text-box .f-text-box-item{
@@ -401,14 +377,11 @@ textarea{
     }
 
     .footer-box img{
-        float: left;
         width: 20%;
         margin: 40% 0 0 0;
     }
 
     .footer-box .footer-menu{
-        display: flex;
-        flex-direction: column;
         margin: 0;
         padding: 0;
     }
